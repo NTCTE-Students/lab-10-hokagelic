@@ -67,7 +67,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     <title>Форма проверки</title>
 </head>
 <body>
-    <h2>мяу</h2>
+    <h2>Проверка</h2>
     <form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>">
         Имя: <input type="text" name="name" value="<?php echo $name; ?>">
         <span><?php echo $nameErr; ?></span>

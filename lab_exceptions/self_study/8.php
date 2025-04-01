@@ -64,7 +64,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     <title>Форма регистрации</title>
 </head>
 <body>
-    <h2>Форма регистрации</h2>
+    <h2>Проверка</h2>
     <form method="POST" action="">
         <label for="name">Имя:</label><br>
         <input type="text" name="name" value="<?= $name ?>"><br>
